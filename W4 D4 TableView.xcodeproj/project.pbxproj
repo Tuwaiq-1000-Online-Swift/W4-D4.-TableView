@@ -13,6 +13,8 @@
 		B957B11D274E733000AEEF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B957B11B274E733000AEEF58 /* Main.storyboard */; };
 		B957B11F274E733400AEEF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B957B11E274E733400AEEF58 /* Assets.xcassets */; };
 		B957B122274E733400AEEF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B957B120274E733400AEEF58 /* LaunchScreen.storyboard */; };
+		B957B14A274E8A9D00AEEF58 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957B149274E8A9D00AEEF58 /* Device.swift */; };
+		B957B14C274E8F4D00AEEF58 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957B14B274E8F4D00AEEF58 /* DeviceCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B957B11E274E733400AEEF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B957B121274E733400AEEF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B957B123274E733400AEEF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B957B149274E8A9D00AEEF58 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		B957B14B274E8F4D00AEEF58 /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				B957B115274E733000AEEF58 /* AppDelegate.swift */,
 				B957B117274E733000AEEF58 /* SceneDelegate.swift */,
 				B957B119274E733000AEEF58 /* ViewController.swift */,
+				B957B149274E8A9D00AEEF58 /* Device.swift */,
 				B957B11B274E733000AEEF58 /* Main.storyboard */,
+				B957B14B274E8F4D00AEEF58 /* DeviceCell.swift */,
 				B957B11E274E733400AEEF58 /* Assets.xcassets */,
 				B957B120274E733400AEEF58 /* LaunchScreen.storyboard */,
 				B957B123274E733400AEEF58 /* Info.plist */,
@@ -141,6 +147,8 @@
 				B957B11A274E733000AEEF58 /* ViewController.swift in Sources */,
 				B957B116274E733000AEEF58 /* AppDelegate.swift in Sources */,
 				B957B118274E733000AEEF58 /* SceneDelegate.swift in Sources */,
+				B957B14C274E8F4D00AEEF58 /* DeviceCell.swift in Sources */,
+				B957B14A274E8A9D00AEEF58 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
